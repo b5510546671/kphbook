@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+/*Route::get('/', function () {
+    $fullname = 'ศุภวิชญ์ คงวุฒิคุณากร';
+    return view('welcome') -> with('name', $fullname);
 });
+*/
+
+Route::get('/', 'PageController@index');
+Route::get('contact', 'PageController@contact');

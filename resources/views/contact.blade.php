@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">สวัสดี {{$name}} </div>
+                This page is about history of KPH books. We started in 2000 to sell the books. We changed to import books from abroad as well.
             </div>
         </div>
     </body>
